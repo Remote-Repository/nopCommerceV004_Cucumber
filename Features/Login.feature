@@ -17,7 +17,7 @@ Scenario: Successful Login with Valid Credentials
 Scenario Outline: Login Data Driven
     Given User Launch Chrome browser
     When User opens URL "https://admin-demo.nopcommerce.com/login"
-    And User enters Email as "admin@yourstore.com" and Password as "admin"
+    And User enters Email as "email" and Password as "Password"
     And Click on Login
     Then Page Title should be "Dashboard / nopCommerce administration"
     When User click on Log out link
